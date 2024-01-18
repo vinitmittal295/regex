@@ -1,0 +1,58 @@
+ Q1
+ #include<stdio.h>
+    int main(){
+        printf("welcome to india");
+        printf("welcome to america");
+        printf("welcome to delhi");
+        printf("welcome to pakistan");
+        
+
+        return 0;   
+    }
+
+Q2     #include<stdio.h>
+    int main(){
+        printf("welcome to india\n");
+        printf("welcome to america\n");
+        printf("welcome to delhi\n");
+        printf("welcome to pakistan\n");
+        
+
+        return 0;   
+    }
+Q3 five fruits name
+    #include<stdio.h>
+    int main(){
+        printf("apple\n");
+        printf("orange\n");
+        printf("papaya\n");
+        printf("fruit\n");
+        printf("anar\n");
+        
+
+        return 0;   
+    }
+
+Q4     #include<stdio.h>
+    int main(){
+        printf("india\n");
+        printf("pakistan\n");
+        printf("nepal\n");
+        printf("amerika\n");
+        printf("canada\n");
+        
+
+        return 0;   
+    }
+Q 5    #include<stdio.h>
+    int main(){
+        printf("jaipur\n");
+        printf("delhi\n");
+        printf("kota\n");
+        printf("sikar\n");
+        printf("bikaner\n");
+        
+
+        return 0;   
+    }
+
