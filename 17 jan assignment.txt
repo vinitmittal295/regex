@@ -1,0 +1,159 @@
+Q1 
+#include <stdio.h>
+int main(){
+    int num=152;
+    int sum=0;
+    int rem;
+    int temp=num;
+    while(num>0){
+        rem=num%10;
+        sum=sum+rem*rem*rem;
+        num=num/10;
+    }
+    printf("%d",sum);
+
+    return 0;
+}
+
+#include <stdio.h>
+int main(){
+    int num=154;
+    int sum=0;
+    int rem;
+    int temp=num;
+    while(num>0){
+        rem=num%10;
+        sum=sum+rem*rem*rem;
+        num=num/10;
+    }
+    printf("%d",sum);
+
+    return 0;
+}
+
+Q2 
+2)count digit :
+67437
+
+12573
+
+int main(){
+    int num=67437;
+    int count=0;
+    
+    while(num>0){
+        num=num/10;
+        count++;
+        
+    }
+    printf("%d",count);
+    return 0;
+}
+
+int main(){
+    int num=12573;
+    int count=0;
+    while(num>0){
+        num=num/10;
+        count++;
+        
+    }printf("%d",count);
+    return 0;
+}
+
+3)table print 2
+
+#include <stdio.h>
+
+int main(){
+    int a=0;
+    while(a<10){
+        a++;
+        printf("%d\n",a*2);
+        
+    }
+    
+    return 0;
+}
+
+
+Q 
+int main(){
+    char a;
+    printf("enter any character");
+    scanf("%c",&a);
+    if(a=='e'){
+        int b=54;
+        while( b>=54 && b<=90){
+            if(b%2==0){
+                printf("%d",b);
+                
+            } b++;
+        }
+        
+    }else if(a=='o'){
+        int c=45;
+        while(c>=45 && c<=96){
+            if(c%2==!0){
+                printf("%d",c);
+            }c++;
+        }
+        
+    }else if(a=='r'){
+        int num;
+        printf("enter num");
+        scanf("%d",&num);
+        int sum= 0;
+        int rem;
+        while(num>0){
+            rem=num%10;
+            sum=sum*10+rem;
+            num=num/10;
+        }printf("%d",sum);
+        
+    }else if(a=='p'){
+        int num;
+        printf("enter num");
+        scanf("%d",&num);
+        int sum= 0;
+        int rem;
+        int temp=num;
+        while(num>0){
+            rem=num%10;
+            sum=sum*10+rem;
+            num=num/10;
+        }if(temp==sum){
+            printf("this is palinfrome number %d",sum);
+        }else{
+            printf("not palindrome number");
+        }
+    }else if(a=='a'){
+        int num;
+        printf("enter num");
+        scanf("%d",&num);
+        int sum= 0;
+        int rem;
+        int temp=num;
+        while(num>0){
+            rem=num%10;
+            sum=sum+rem*rem*rem;
+            num=num/10;
+        }if(temp==sum){
+            printf("this is armstrong number %d",sum);
+        }else{
+            printf("not armstrong number");
+        }
+    }else if(a=='w'){
+        int num2;
+        printf("enter any number");
+        scanf("%d",&num2);
+        int count=0;
+        while(num2>0){
+            num2=num2/10;
+            count++;
+        }printf("%d",count);
+    }
+    
+    
+    return 0;
+}

@@ -1,0 +1,352 @@
+Q 1 to check a number 10 se greater 
+
+
+#include<stdio.h>
+int main(){
+    int number;
+    printf("enter value which is greater than 10");
+    scanf("%d",&number);
+    if(number>10){
+        printf("true");
+    }else{
+        printf("false");
+    }
+    return 0;
+}
+ 
+Q2 to check a number 50 se greater 
+
+#include<stdio.h>
+int main(){
+    int number;
+    printf("enter value which is greater than 50");
+    scanf("%d",&number);
+    if(number>50){
+        printf("true");
+    }else{
+        printf("false");
+    }
+    return 0;
+}
+
+Q3 to check a number 500 se greater 
+
+#include<stdio.h>
+int main(){
+    int number;
+    printf("enter value which is greater than 500");
+    scanf("%d",&number);
+    if(number>500){
+        printf("true");
+    }else{
+        printf("false");
+    }
+    return 0;
+}
+
+Q 4  a: apple 
+-----------------------------------------------
+b:ball 
+not match 
+--------------------------------------
+c :cat 
+not match 
+
+ans.
+
+#include<stdio.h>
+int main(){
+    char key;
+    printf("enter the character");
+    scanf("%c",&key);
+    if(key=='a'){
+        printf("apple");
+    }else if(key=='b'){
+        printf("ball");
+    }else{
+        printf("not match");
+    }
+    return 0;
+}
+
+Q 5    a: addition two number 
+Sorry ! not match 
+
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter the character");
+    scanf("%c",&a);
+    if(a=='a'){
+        int c,d,e;
+        printf("enter first number to add");
+        scanf("%d",&c);
+        printf("enter second number to add");
+        scanf("%d",&d);
+        e=c+d;
+        printf(" %d ",e);
+        
+    }else{
+        printf("sorry not found");
+    }
+    return 0;   
+}
+
+Q6 s: substraction two number 
+Sorry ! not match
+
+Ans.
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter the character");
+    scanf("%c",&a);
+    if(a=='a'){
+        int c,d,e;
+        printf("enter first number to add");
+        scanf("%d",&c);
+        printf("enter second number to add");
+        scanf("%d",&d);
+        e=c-d;
+        printf(" %d ",e);
+        
+    }else{
+        printf("sorry not found");
+    }
+    return 0;   
+}
+
+Q 7  d: divide two number 
+Sorry ! not match
+
+Ans.
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter the character");
+    scanf("%c",&a);
+    if(a=='a'){
+        int c,d,e;
+        printf("enter first number to add");
+        scanf("%d",&c);
+        printf("enter second number to add");
+        scanf("%d",&d);
+        e=c/d;
+        printf(" %d ",e);
+        
+    }else{
+        printf("sorry not found");
+    }
+    return 0;   
+}
+
+Q 8  m: multiply four number 
+Sorry ! not match 
+Ans.
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter the character");
+    scanf("%c",&a);
+    if(a=='a'){
+        int c,d,e;
+        printf("enter first number to add");
+        scanf("%d",&c);
+        printf("enter second number to add");
+        scanf("%d",&d);
+        e=c*d;
+        printf(" %d ",e);
+        
+    }else{
+        printf("sorry not found");
+    }
+    return 0;   
+}
+
+Q 9
+o: modular two number 
+Sorry ! not match 
+
+Ans.
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter the character");
+    scanf("%c",&a);
+    if(a=='a'){
+        int c,d,e;
+        printf("enter first number to add");
+        scanf("%d",&c);
+        printf("enter second number to add");
+        scanf("%d",&d);
+        e=c%d;
+        printf(" %d ",e);
+        
+    }else{
+        printf("sorry not found");
+    }
+    return 0;   
+}
+
+Q m :you are male 
+not match 
+-----------
+
+ans
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter the character");
+    scanf("%c",&a);
+    if(a=='m'){
+        printf("you are male");
+        
+    }else{
+        printf("sorry not match");
+    }
+    return 0;   
+}
+
+Q f :you are female 
+not match
+
+ans
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter the character");
+    scanf("%c",&a);
+    if(a=='f'){
+        printf("you are female");
+        
+    }else{
+        printf("sorry not match");
+    }
+    return 0;   
+}
+
+Q to check a number is divisible by 5 or not
+ans
+#include<stdio.h>
+int main(){
+    int  a;
+    printf("enter the value");
+    scanf("%d",&a);
+    if(a%5==0){
+        printf("value is divisible");
+        
+    }else{
+        printf("sorry not match");
+    }
+    return 0;   
+}
+
+Q  to check a number is divisible by 7or not 
+#include<stdio.h>
+int main(){
+    int  a;
+    printf("enter the value");
+    scanf("%d",&a);
+    if(a%7==0){
+        printf("value is divisible");
+        
+    }else{
+        printf("sorry not match");
+    }
+    return 0;   
+}
+
+Q to check a number is divisible by 67 or not
+ans 
+#include<stdio.h>
+int main(){
+    int  a;
+    printf("enter the value");
+    scanf("%d",&a);
+    if(a%67==0){
+        printf("value is divisible");
+        
+    }else{
+        printf("sorry not match");
+    }
+    return 0;   
+}
+
+Q voter id : 
+->check 
+user age 18 se jyada hey valid 
+->not 
+
+ans
+#include<stdio.h>
+int main(){
+    int  a;
+    printf("enter the value");
+    scanf("%d",&a);
+    if(a>=18){
+        printf("you are eligible");
+        
+    }else{
+        printf("sorry not match");
+    }
+    return 0;   
+}
+
+Q  user 1 input :
+one 
+
+not match 
+
+#include<stdio.h>
+int main(){
+    int  a;
+    printf("enter the value");
+    scanf("%d",&a);
+    if(a==1){
+        printf("one");
+        
+    }else{
+        printf("sorry not match");
+    }
+    return 0;   
+}
+
+Q user 2 input :
+two
+
+not match 
+ans
+#include<stdio.h>
+int main(){
+    int  a;
+    printf("enter the value");
+    scanf("%d",&a);
+    if(a==2){
+        printf("two");
+        
+    }else{
+        printf("sorry not match");
+    }
+    return 0;   
+}
+
+Q user 3 input :
+three 
+
+not match 
+ans
+#include<stdio.h>
+int main(){
+    int  a;
+    printf("enter the value");
+    scanf("%d",&a);
+    if(a==3){
+        printf("three");
+        		
+    }else{
+        printf("sorry not match");
+    }
+    return 0;   
+}
+
+

@@ -1,0 +1,204 @@
+Q1   
+ #include<stdio.h>
+    int main(){
+        char a;
+        printf("enter the character");
+        scanf("%c",&a);
+        if(a=='e'){
+            int num1;
+            printf("enter value");
+            scanf("%d",&num1);
+            if(num1%2==0){
+                printf("this is even");
+            }else{
+                printf("not even");
+            }
+            
+        }else if(a=='o'){
+            int num2;
+            printf("enter value");
+            scanf("%d",&num2);
+            if(num2%2==!0){
+                printf("this is odd");
+            }else{
+                printf("not odd");
+            }
+            
+        }else{
+            printf("not match");
+        }
+  
+        return 0;   
+    }
+
+
+
+
+
+Q5
+    #include<stdio.h>
+    int main(){
+        
+        char a;
+        printf("enter character to check voter id,gender,two number max, three number max,check vowel and consonant");
+        scanf("%c",&a);
+        if(a=='v'){
+           int b;
+           printf("enter your age");
+           scanf(" %d",&b);
+           if(b>=18){
+               printf("you are eligible");
+           }else{
+               printf("you are not eligbible");
+           }
+        }else if(a=='g'){
+            char d;
+            printf("enter your gneder");
+            scanf(" %c",&d);
+            if(d=='m'){
+                printf("you are male");
+            }else{
+                printf("you are female");
+            }
+            
+        }else if(a=='t'){
+            int num1=45;
+            int num2=33;
+            if(num1>=num2){
+                printf("num1 is max");
+            }else{
+                printf("num2 is max");
+            }
+        }else if(a=='h'){
+            int num1=45;
+            int num2=33;
+            int num3=56;
+            if(num1>=num2 && num2>=num3){
+                printf("num1 is max");
+            }else if(num2>=num3){
+                printf("num2 is max");
+            }else{
+                printf("num3 is max");
+            }
+        }else if(a=='c'){
+            char vo;
+            printf("enter any character");
+            scanf(" %c",&vo);
+            if(vo=='a' || vo=='e' || vo=='i' || vo=='o' || vo=='u'){
+                printf("this is vowel");
+            }else{
+                printf("this is consonant");
+            }
+            
+        }else{
+            printf("not match");
+        }
+        return 0;   
+    }
+
+Q     #include<stdio.h>
+    int main(){
+        
+        char a;
+        printf("enter character to check alphabate check or digit check");
+        scanf("%c",&a);
+        if(a=='c'){
+           char b;
+           printf("enter any character");
+           scanf(" %c",&b);
+           if(b=='a'){
+               printf("apple");
+           }else if(b=='b'){
+               printf("ball");
+           }else if(b=='c'){
+               printf("cat");
+           }else{
+               printf("not match");
+           }
+
+        }else if(a=='d'){
+            int e;
+            printf("enter any number");
+            scanf(" %d",&e);
+            if(e==1){
+                printf("one");
+            }else if(e==2){
+               printf("two");
+           }else if(e==3){
+               printf("three");
+           }else{
+               printf("not match");
+           }
+            
+        }else{
+            printf("not match");
+        }
+        return 0;   
+    }
+Q celcius to farehnite
+    #include<stdio.h>
+    int main(){
+        char ch;
+        printf("enter character to covert celcius to farenhite");
+        scanf("%c",&ch);
+        if(ch=='f'){
+            int cel;
+            printf("enter celcius value");
+            scanf("%d",&cel);
+            int result=cel*(9/5)+32;
+            printf("%d",result);
+        }else if(ch=='r'){
+            int far;
+            printf("enter farenhite value");
+            scanf("%d",&far);
+            int result=(far-32)*5/9;
+            printf("%d",result);
+            
+        }
+        
+        return 0;   
+    }
+
+Q   area of triangle ,square , rectangle
+
+ #include<stdio.h>
+    int main(){
+        char c;
+        printf("enter char Check whether the trainge , square , reactanlge (area & volume");
+        scanf("%c",&c);
+        if(c=='t'){
+            printf(" area of triable A = ½ (b × h)");
+        }else if(c=='s'){
+            printf("area of square A=a2");
+        }else if(c=='r'){
+            printf(" area of square length × width");
+        }else if(c=='d'){
+            printf(" volume of square = length × width × height.h");
+        }else{
+            printf("not match");
+        } return 0;   
+    }
+Q Q salary
+
+    #include<stdio.h>
+    int main(){
+        int holiday;
+        int salary;
+        printf("enter your holiday");
+        scanf("%d",&holiday);
+        printf("enter your salary");
+        scanf("%d",&salary);
+        int result1 =salary-(salary*5)/100;
+        int result2 =salary-(salary*10)/100;
+        int result3 =salary-(salary*50)/100;
+        if(holiday==1){
+            printf("whole salary");
+        }else if(holiday>=2 && holiday<=5){
+            printf("%d",result1);
+        }else if(holiday>5 && holiday<=14){
+            printf("%d",result2);
+        }else if(holiday=15){
+            printf("%d",result3);
+        }
+        return 0;   
+    }

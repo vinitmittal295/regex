@@ -1,0 +1,280 @@
+Q) 
+1--->10 number
+
+#include <stdio.h>
+int main(){
+    for(int i=1; i<=10; i++){
+        printf("%d",i);
+        
+    }
+    return 0;
+}
+ 
+10---->1 number 
+#include <stdio.h>
+int main(){
+    for(int i=10; i>=1; i--){
+        printf("%d",i);
+        
+    }
+    return 0;
+}
+
+50---->100 number 
+
+#include <stdio.h>
+int main(){
+    for(int i=50; i>=50 && i<=100; i++){
+        printf("%d",i);
+        
+    }
+    return 0;
+}
+
+67---->89 number print 
+#include <stdio.h>
+int main(){
+    for(int i=67; i>=67 && i<=89; i++){
+        printf("%d",i);
+        
+    }
+    return 0;
+}
+
+89---->67 number print
+#include <stdio.h>
+int main(){
+    for(int i=89; i<=89 && i>=67; i--){
+        printf("%d",i);
+        
+    }
+    return 0;
+}
+
+1--->10 even number for loop 
+#include <stdio.h>
+int main(){
+    for(int i=1; i<=10;i++){
+        if(i%2==0){
+            printf("%d",i);
+        }
+        
+        
+    }
+    return 0;
+}
+
+10---->1 even number for loop
+#include <stdio.h>
+int main(){
+    for(int i=10; i>=1;i--){
+        if(i%2==0){
+            printf("%d",i);
+        }
+        
+        
+    }
+    return 0;
+}
+
+
+100---->1 even number for loop
+#include <stdio.h>
+int main(){
+    for(int i=100; i>=1;i--){
+        if(i%2==0){
+            printf("%d",i);
+        }
+        
+        
+    }
+    return 0;
+}
+67---->89 even number for loop
+#include <stdio.h>
+int main(){
+    for(int i=67; i>=67 && i<=89;i++){
+        if(i%2==0){
+            printf("%d",i);
+        }
+        
+        
+    }
+    return 0;
+}
+
+239---->12 even number for loop
+
+#include <stdio.h>
+int main(){
+    for(int i=239; i>=12 && i<=239;i--){
+        if(i%2==0){
+            printf("%d",i);
+        }
+        
+        
+    }
+    return 0;
+}
+
+1---->10 odd number for loop
+#include <stdio.h>
+int main(){
+    for(int i=1; i<=10;i++){
+        if(i%2==!0){
+            printf("%d",i);
+        }
+        
+        
+    }
+    return 0;
+}
+1---->100 odd number for loop
+1---->100 odd number for loop
+#include <stdio.h>
+int main(){
+    for(int i=1; i<=100;i++){
+        if(i%2==!0){
+            printf("%d",i);
+        }
+        
+        
+    }
+    return 0;
+}
+
+100---->1 odd number for loop
+
+#include <stdio.h>
+int main(){
+    for(int i=100; i>=1;i--){
+        if(i%2==!0){
+            printf("%d",i);
+        }
+        
+        
+    }
+    return 0;
+}
+
+23--->78 odd number for loop 
+
+#include <stdio.h>
+int main(){
+    for(int i=23; i>=23 && i<=78;i++){
+        if(i%2==0){
+            printf("%d",i);
+        }
+        
+        
+    }
+    return 0;
+}
+
+78---->19 odd number for loop
+#include <stdio.h>
+int main(){
+    for(int i=78; i>=19 && i<=78;i--){
+        if(i%2==0){
+            printf("%d",i);
+        }
+        
+        
+    }
+    return 0;
+}
+
+2 table print for loop 
+#include <stdio.h>
+int main(){
+    int n;
+    printf("enter any value");
+    scanf("%d",&n);
+    for(int i=1; i<=10; i++){
+        printf("%d",i*n);
+    }
+    return 0;
+}
+
+----------------------------------------------------------------------
+
+#include <stdio.h>
+int main(){
+    char a;
+    printf("enter any character");
+    scanf("%c",&a);
+    if(a=='w'){
+        int num;
+        printf("enter any number");
+        scanf("%d",&num);
+        if(num==1){
+            int a=1;
+            while(a<=10){
+                printf("%d",a);
+                a++;
+                
+            }
+            }else if(num==2){
+                int b=100;
+                while(b>=1){
+                    printf("%d",b);
+                    b--;
+                }
+                
+            }else if(num==3){
+                int c=34;
+                while(c>=34 && c<=89){
+                    if(c%2==0){
+                        printf("%d",c);
+                    }c++;
+                }
+            }else if(num==4){
+                int d=89;
+                while(d>=12 && d>=89){
+                    if(d%2==0){
+                        printf("%d",d);
+                    }d--;
+                }
+                
+            }
+        }else if(a=='f'){
+            int num2;
+            printf("enter any number");
+            scanf("%d",&num2);
+            if(num2==1){
+                for(int i=1; i<=10; i++){
+                    printf("%d",i);
+                }
+            }else if(num2==2){
+                for(int i=100; i>=1; i--){
+                    if(i%2==!0){
+                        printf("%d",i);
+                    }
+                    
+                }
+            }else if(num2==3){
+                for(int i=34; i>=34 && i<=89; i++){
+                    if(i%2==0){
+                        printf("%d",i);
+                    }
+                    
+                }
+            }else if(num2==4){
+                for(int i=89; i>=12 && i<=89; i--){
+                    if(i%2==0){
+                        printf("%d",i);
+                    }
+                    
+                }
+            }
+        }else if(a=='s'){
+            int sum=0;
+            
+            for(int i=1; i<=10; i++){
+                sum=sum+i;
+                
+            }printf("%d",sum);
+        }
+    
+return 0;
+}

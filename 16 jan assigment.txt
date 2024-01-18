@@ -1,0 +1,304 @@
+2)
+1---->10 even 
+
+int main(){
+    int a=1;
+    while(a<=10){
+        if(a%2==0){
+            printf("%d",a);
+        }
+    a++;
+    }
+
+    return 0;
+}
+
+3)
+1---->100 even
+
+int main(){
+    int a=1;
+    while(a<=100){
+        if(a%2==0){
+            printf("%d",a);
+        }
+    a++;
+    }
+
+    return 0;
+}
+
+4)
+50---->100 even
+
+
+int main(){
+    int a=50;
+    while( a>=50 && a<=100){
+        if(a%2==0){
+            printf("%d",a);
+        }
+    a++;
+    }
+
+    return 0;
+}
+
+5)
+45--->90 
+even 
+int main(){
+    int a=45;
+    while( a>=45 && a<=90){
+        if(a%2==0){
+            printf("%d",a);
+        }
+    a++;
+    }
+
+    return 0;
+}
+
+6)
+10--->1 even number 
+
+int main(){
+    int a=10;
+    while(a>=1){
+        if(a%2==0){
+            printf("%d",a);
+        }
+      a--;
+    }
+
+    return 0;
+}
+
+
+
+7)
+100----1 
+
+i#include <stdio.h>
+int main(){
+    int a=100;
+    while(a>=1){
+        if(a%2==0){
+            printf("%d",a);
+        }
+      a--;
+    }
+
+    return 0;
+}
+
+
+8)100---->50 
+#include <stdio.h>
+int main(){
+    int a=100;
+    while(a>=50 && a<=100 ){
+        if(a%2==0){
+            printf("%d",a);
+        }
+      a--;
+    }
+
+    return 0;
+}
+
+9)
+1--->10 odd number
+#include <stdio.h>
+int main(){
+    int a=1;
+    while(a<=10 ){
+        if(a%2==!0){
+            printf("%d",a);
+        }
+      a++;
+    }
+    return 0;
+}
+
+10)
+1--->100 odd number 
+#include <stdio.h>
+int main(){
+    int a=1;
+    while(a<=100){
+        if(a%2==!0){
+            printf("%d",a);
+        }
+      a++;
+    }
+    return 0;
+}
+
+11)
+50--->100 odd number
+#include <stdio.h>
+int main(){
+    int a=50;
+    while(a<=100 && a>=50){
+        if(a%2==!0){
+            printf("%d",a);
+        }
+      a++;
+    }
+    return 0;
+}
+
+12)
+67---->90 odd number 
+#include <stdio.h>
+int main(){
+    int a=67;
+    while(a<=90 && a>=67){
+        if(a%2==!0){
+            printf("%d",a);
+        }
+      a++;
+    }
+    return 0;
+}
+
+
+13)
+10--->1 odd number 
+
+#include <stdio.h>
+int main(){
+    int a=10;
+    while(a>=1){
+        if(a%2==!0){
+            printf("%d",a);
+        }
+      a--;
+    }
+    return 0;
+}
+
+14)
+98--->34 odd number 
+#include <stdio.h>
+int main(){
+    int a=98;
+    while(a>=34 && a<=98){
+        if(a%2==!0){
+            printf("%d",a);
+        }
+      a--;
+    }
+    return 0;
+}
+
+Q 15
+int main(){
+    int num=6312;
+    int sum=0;
+    int rem;
+    while(num>0){
+        rem=num%10;
+        sum=sum*10+rem;
+        num=num/10;
+    }
+    printf("%d",sum);
+
+    return 0;
+}
+
+Q16
+#include<stdio.h>
+        int main(){
+            
+            char a;
+            printf("enter character to check voter id,gender,number print,number reverse,palindrome");
+            scanf("%c",&a);
+            if(a=='v'){
+               int b;
+               printf("enter your age");
+               scanf(" %d",&b);
+               if(b>=18){
+                   printf("you are eligible");
+               }else{
+                   printf("you are not eligbible");
+               }
+            }else if(a=='g'){
+                char d;
+                printf("enter your gneder");
+                scanf(" %c",&d);
+                if(d=='m'){
+                    printf("you are male");
+                }else{
+                    printf("you are female");
+                }
+                
+            }else if(a=='t'){
+                int num1=45;
+                int num2=33;
+                if(num1>=num2){
+                    printf("num1 is max");
+                }else{
+                    printf("num2 is max");
+                }
+            }else if(a=='h'){
+                int num1=45;
+                int num2=33;
+                int num3=56;
+                if(num1>=num2 && num2>=num3){
+                    printf("num1 is max");
+                }else if(num2>=num3){
+                    printf("num2 is max");
+                }else{
+                    printf("num3 is max");
+                }
+            }else if(a=='c'){
+                char vo;
+                printf("enter any character");
+                scanf(" %c",&vo);
+                if(vo=='a' || vo=='e' || vo=='i' || vo=='o' || vo=='u'){
+                    printf("this is vowel");
+                }else{
+                    printf("this is consonant");
+                }
+                
+            }else if(a=='b'){
+                int a=1;
+                while(a<=10){
+                    printf("%d",a);
+            a++;
+            }
+            }else if(a=='x'){
+                int a=1;
+                while(a<=100){
+                    printf("%d",a);
+            a++;
+            }
+            }else if(a=='y'){
+                int num=6312;
+                int sum=0;
+                int rem;
+                while(num>0){
+                    rem=num%10;
+                    sum=sum*10+rem;
+                    num=num/10;
+                    
+                }
+                printf("%d",sum);
+                
+            }else if(a=='p'){
+                int num=121;
+                int sum=0;
+                int rem;
+                while(num>0){
+                    rem=num%10;
+                    sum=sum*10+rem;
+                    num=num/10;
+                    
+                }
+                printf("%d",sum);
+                
+            }
+            return 0;   
+        }
